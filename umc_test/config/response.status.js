@@ -1,5 +1,3 @@
-// response.status.js
-
 import { StatusCodes } from "http-status-codes";
 
 export const status = {
