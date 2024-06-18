@@ -1,5 +1,5 @@
 // temp.service.js
-import { tempResponseDTO, flagResponseDTO } from "../dtos/temp.response.dto.js";
+import { tempResponseDTO, flagResponseDTO } from "../dto/temp.response.dto.js";
 import { BaseError } from "../config/error.js";
 import { status } from "../config/response.status.js";
 

@@ -1,7 +1,7 @@
 //user.service.js
 import { BaseError } from "../config/error.js";
 import { status } from "../config/response.status.js";
-import { signinResponseDTO } from "../dtos/user.dto.js"
+import { signinResponseDTO } from "../dto/user.dto.js"
 import { addUser, getUser, getUserPreferToUserID, setPrefer } from "../models/user.dao.js";
 
 export const joinUser = async (body) => {
